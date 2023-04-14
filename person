@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+class person{
+    public:
+        string name;
+        int age;
+        person(string aName, int aAge){
+            name = aName;
+            age = aAge;
+        }
+};
+
+int main(){
+    person person1;
+    person1.name = "Skyler";
+    person1.age = 18;
+
+    person person2;
+    person2.name = "Serenity";
+    person2.age = 16;
+
+    return 0;
+}
